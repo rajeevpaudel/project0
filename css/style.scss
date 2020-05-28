@@ -1,0 +1,314 @@
+//variable
+$main-color: #824800;
+$sec-color: #333;
+$style-color: #f7c08a;
+$main-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$white: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-style {
+  color: $style-color;
+}
+// main sytle
+body {
+  font-family: $main-font;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+//navbar
+#navbar {
+  background: $main-color;
+  color: #333;
+  overflow: auto;
+
+  .logo {
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  ul {
+    list-style: none;
+    float: right;
+
+    li {
+      float: left;
+
+      a {
+        padding: 30px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+
+    a:hover {
+      background: #9b6c32;
+      color: #fff;
+    }
+  }
+}
+
+.home-1 {
+  //home
+  .home-content {
+    background: url(../img/interior.jpg) no-repeat center center/cover;
+    height: 600px;
+    text-align: center;
+    padding-top: 150px;
+    color: $white;
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+
+    h1 {
+      font-size: 60px;
+      line-height: 1.2em;
+    }
+    p {
+      padding-bottom: 60px;
+      line-height: 1.2em;
+      font-size: 20px;
+    }
+  }
+
+  //home-info
+  .home-info {
+    height: 500px;
+    background-color: $sec-color;
+
+    .info-img {
+      // background: url(../img/sofa.jpg) center no-repeat center/cover;
+      // float: left;
+      float: left;
+      width: 40%;
+      min-height: 100%;
+      background: url("../img/sofa.jpg") no-repeat center center/cover;
+    }
+
+    .info-content {
+      float: right;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .info-content {
+      padding-top: 150px;
+      color: $white;
+
+      h3 {
+        padding-bottom: 30px;
+      }
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+      p {
+        padding: 30px;
+        line-height: 1.2em;
+      }
+    }
+  }
+
+  .home-shop {
+    .row {
+      width: 100%;
+      .col-lg {
+        height: 800px;
+      }
+      h2 {
+        padding-top: 680px;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+      .shop1 {
+        background: url(../img/bedfinal.jpg) no-repeat center center/cover;
+      }
+      .shop2 {
+        background: url(../img/diningtablefinal.jpg) no-repeat center
+          center/cover;
+      }
+      .shop3 {
+        background: url(../img/comfycouchfinal.jpg) no-repeat center
+          center/cover;
+      }
+    }
+  }
+}
+//about
+.about {
+  .about-content {
+    .top-about-content {
+      height: 800px;
+      .row {
+        height: 800px;
+        width: 100%;
+        background: $sec-color;
+        color: $white;
+        text-align: center;
+        line-height: 1.6em;
+        font-size: 1.6em;
+        h1 {
+          padding-top: 80px;
+        }
+        p {
+          padding-top: 80px;
+        }
+        .aboutimg1 {
+          background: url(../img/officefinal.jpg);
+        }
+      }
+    }
+  }
+}
+
+//contacts
+.contact-content {
+  .button {
+    padding: 20px;
+  }
+  h1 {
+    padding: 20px;
+  }
+  p {
+    padding: 20px;
+  }
+  .form-grp {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    textarea {
+      height: 260px;
+      width: 100%;
+    }
+    input {
+      width: 100%;
+    }
+    label {
+      display: block;
+    }
+  }
+}
+
+//shop
+.shop-content {
+  .shop-offer {
+    text-align: center;
+    p {
+      font-size: 1.6em;
+    }
+    table,
+    th,
+    td {
+      border: 1px solid $sec-color;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+    table {
+      width: 75%;
+      align-self: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .shop-product {
+    text-align: center;
+    h2 {
+      padding: 20px;
+    }
+    .shop-market {
+      p {
+        padding-top: 20px;
+        a {
+          text-decoration: none;
+          color: $white;
+        }
+      }
+      .row {
+        width: 100%;
+        .col {
+          h2 {
+            padding-bottom: 5px;
+          }
+          // p {
+          //   padding-top: 10px;
+          // }
+          height: 800px;
+          text-align: center;
+        }
+        h2 {
+          padding-top: 670px;
+        }
+        .market {
+          a {
+            text-decoration: none;
+            color: $white;
+          }
+        }
+        .prod1 {
+          background: url(../img/bedfinal.jpg) no-repeat center center/cover;
+        }
+        .prod2 {
+          background: url(../img/livingroomfinal.jpg) no-repeat center
+            center/cover;
+        }
+        .prod3 {
+          background: url(../img/couchfinal.jpg) no-repeat center center/cover;
+        }
+        .prod4 {
+          background: url(../img/diningtablefinal.jpg) no-repeat center
+            center/cover;
+        }
+        .prod5 {
+          background: url(../img/tablefinal.jpg) no-repeat center center/cover;
+        }
+        .prod6 {
+          background: url(../img/comfycouchfinal.jpg) no-repeat center
+            center/cover;
+        }
+      }
+    }
+  }
+}
+
+#main-footer {
+  text-align: center;
+  background: $main-color;
+  color: #fff;
+  padding: 15px;
+
+  p {
+    font-size: 20px;
+  }
+}

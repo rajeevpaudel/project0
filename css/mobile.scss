@@ -1,0 +1,83 @@
+//variable
+$main-color: #824800;
+$sec-color: #333;
+$style-color: #f7c08a;
+$main-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$white: #fff;
+
+#navbar {
+  .logo {
+    float: none;
+    text-align: center;
+  }
+  ul {
+    // text-align: center;
+
+    li {
+      float: none;
+      padding-right: 140px;
+    }
+  }
+}
+
+//home
+.home-1 {
+  .home-content {
+  }
+  .home-info {
+    text-align: center;
+    height: 500px;
+    .info-img {
+      display: none;
+    }
+    .info-content {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+// about
+.about {
+  .about-content {
+    .top-about-content {
+      .row {
+        height: 100%;
+        display: block;
+        .content-left {
+          // height: 1000px;
+        }
+        h1 {
+          padding-top: 25px;
+        }
+        p {
+          padding-top: 5px;
+        }
+        .aboutimg1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+//shop
+.shop-content {
+  .shop-offer {
+    table {
+      display: none;
+    }
+  }
+  .shop-product {
+    .shop-market {
+      p {
+      }
+      .row {
+        h2 {
+          padding-top: 580px;
+        }
+      }
+    }
+  }
+}

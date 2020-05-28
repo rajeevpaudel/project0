@@ -1,0 +1,50 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li {
+  float: none;
+  padding-right: 140px;
+}
+
+.home-1 .home-info {
+  text-align: center;
+  height: 500px;
+}
+
+.home-1 .home-info .info-img {
+  display: none;
+}
+
+.home-1 .home-info .info-content {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+.about .about-content .top-about-content .row {
+  height: 100%;
+  display: block;
+}
+
+.about .about-content .top-about-content .row h1 {
+  padding-top: 25px;
+}
+
+.about .about-content .top-about-content .row p {
+  padding-top: 5px;
+}
+
+.about .about-content .top-about-content .row .aboutimg1 {
+  display: none;
+}
+
+.shop-content .shop-offer table {
+  display: none;
+}
+
+.shop-content .shop-product .shop-market .row h2 {
+  padding-top: 580px;
+}
+/*# sourceMappingURL=mobile.css.map */
